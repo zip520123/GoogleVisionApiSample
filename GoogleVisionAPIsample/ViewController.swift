@@ -22,15 +22,12 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate , UINav
 		loadApikey()
 	}
 	func loadApikey(){
-		var keys: NSDictionary?
-		if let path = Bundle.main.path(forResource: "apikey", ofType: "plist") {
-			keys = NSDictionary(contentsOfFile: path)
-		}
-		if let dict = keys {
-			if let plistApiKey = dict["GoogleVisionApiKey"] as? String {
-				ViewController.apiKey = plistApiKey
-			}
-		}
+		
+		let path = Bundle.main.path(forResource: "apikey", ofType: "plist")
+		let	keys = NSDictionary(contentsOfFile: path!)
+		let plistApiKey = keys!["GoogleVisionApiKey"] as! String
+		ViewController.apiKey = plistApiKey
+
 	}
 	@IBAction func takePicture(_ sender: Any) {
 		let picker = UIImagePickerController()

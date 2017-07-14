@@ -13,7 +13,7 @@
 		E74470301F14BAFA0061EFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E744702E1F14BAFA0061EFCA /* Main.storyboard */; };
 		E74470321F14BAFA0061EFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74470311F14BAFA0061EFCA /* Assets.xcassets */; };
 		E74470351F14BAFA0061EFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74470331F14BAFA0061EFCA /* LaunchScreen.storyboard */; };
-		E7FA70851F18B06900BC4300 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7FA70841F18B06900BC4300 /* apikey.plist */; };
+		E7FA70871F18BB2C00BC4300 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7FA70861F18BB2C00BC4300 /* apikey.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		E74470311F14BAFA0061EFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E74470341F14BAFA0061EFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E74470361F14BAFA0061EFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7FA70841F18B06900BC4300 /* apikey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apikey.plist; sourceTree = "<group>"; };
+		E7FA70861F18BB2C00BC4300 /* apikey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apikey.plist; sourceTree = "<group>"; };
 		EE9FAE8562B658388EB98ADB /* Pods_GoogleVisionAPIsample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleVisionAPIsample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB973EC6C68DA4C2F69CE417 /* Pods-GoogleVisionAPIsample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVisionAPIsample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVisionAPIsample/Pods-GoogleVisionAPIsample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +86,7 @@
 				E74470311F14BAFA0061EFCA /* Assets.xcassets */,
 				E74470331F14BAFA0061EFCA /* LaunchScreen.storyboard */,
 				E74470361F14BAFA0061EFCA /* Info.plist */,
-				E7FA70841F18B06900BC4300 /* apikey.plist */,
+				E7FA70861F18BB2C00BC4300 /* apikey.plist */,
 			);
 			path = GoogleVisionAPIsample;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74470351F14BAFA0061EFCA /* LaunchScreen.storyboard in Resources */,
-				E7FA70851F18B06900BC4300 /* apikey.plist in Resources */,
+				E7FA70871F18BB2C00BC4300 /* apikey.plist in Resources */,
 				E74470321F14BAFA0061EFCA /* Assets.xcassets in Resources */,
 				E74470301F14BAFA0061EFCA /* Main.storyboard in Resources */,
 			);
